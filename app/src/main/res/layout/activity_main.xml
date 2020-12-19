@@ -8,15 +8,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
-
-
-    </LinearLayout>
-
-
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:id="@+id/rvw"
+        android:scrollbars="vertical"/>
 
 </LinearLayout>
+
+
+
