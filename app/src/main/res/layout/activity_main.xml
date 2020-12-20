@@ -6,13 +6,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/grad"
+    android:paddingBottom="30dp"
     tools:context=".MainActivity">
 
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Adventrous Trips"
+    android:textColor="@color/white"
+    android:textSize="30dp"
+    android:layout_gravity="center"></TextView>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
+
         android:id="@+id/rvw"
         android:scrollbars="vertical"/>
 
