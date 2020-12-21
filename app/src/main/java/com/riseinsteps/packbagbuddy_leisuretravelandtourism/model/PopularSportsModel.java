@@ -1,17 +1,17 @@
 package com.riseinsteps.packbagbuddy_leisuretravelandtourism.model;
 
 public class PopularSportsModel {
-    private String ImageURL;
+    private String imageURL;
 
     public PopularSportsModel(String imageURL) {
-        ImageURL = imageURL;
+        this.imageURL = imageURL;
     }
 
     public String getImageURL() {
-        return ImageURL;
+        return imageURL;
     }
 
     public void setImageURL(String imageURL) {
-        ImageURL = imageURL;
+        this.imageURL = imageURL;
     }
 }

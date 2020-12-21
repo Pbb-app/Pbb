@@ -171,7 +171,8 @@
                     android:id="@+id/popularSportsRecyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:paddingTop="20dp"/>
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"/>
             </LinearLayout>
 
 

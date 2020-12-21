@@ -33,7 +33,7 @@ public class PopularSportsAdapter extends RecyclerView.Adapter<PopularSportsAdap
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Glide.with(context).load(popularSportsModelList.get(position).getImageURL()).into(holder.popularSportsImage);
+        Glide.with(holder.popularSportsImage.getContext()).load(popularSportsModelList.get(position).getImageURL()).into(holder.popularSportsImage);
     }
 
     @Override
@@ -49,7 +49,6 @@ public class PopularSportsAdapter extends RecyclerView.Adapter<PopularSportsAdap
             super(itemView);
             popularSportsImage = itemView.findViewById(R.id.popular_sports_imageView);
         }
-
 
     }
 }
