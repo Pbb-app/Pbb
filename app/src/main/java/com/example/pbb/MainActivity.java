@@ -14,7 +14,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity
 {
     private String[] tour={"Kedarnath Tour","The Rajgundha 360 Trek - BIR","The Kareri Lake Trek","Kasol - Grahan - Tosh"};//};
-    private  int[] images={R.drawable.a,R.drawable.b,R.drawable.c,R.drawable.a};//};
+    private  int[] images={R.drawable.a,R.drawable.a,R.drawable.a,R.drawable.a};//};
     private String[] days={"1 Days ,1 Nights","2 Days , 2 Nights","3 Days , 3 Nights","4 Days , 4 Nights"};//};
     private String [] monthstart={"oct - nov","feb-dec","dec-feb","mar-apr"};//};
     private String[] takeoff={"Delhi","Mumbai","Kolkata","Chennai"};//};
