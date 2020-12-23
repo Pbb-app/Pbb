@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="12dp"
+
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    android:layout_marginBottom="17dp"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/a"
+
+            ></ImageView>
+
+
+        <TextView
+            android:id="@+id/tour_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="5dp"
+            android:text="Kedarnath"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp">
+
+            <ImageView
+                android:id="@+id/daysnights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_calendar_today_24"
+                tools:ignore="InvalidId">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/daysnights"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_alarm_on_24"></ImageView>
+
+            <ImageView
+                android:id="@+id/takeoff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/duration"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_flight_takeoff_24"></ImageView>
+
+            <ImageView
+                android:id="@+id/land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/takeoff"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_flight_land_24"></ImageView>
+
+            <TextView
+                android:id="@+id/daysnights1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="hello"
+                android:textSize="12sp"
+                android:layout_toRightOf="@id/daysnights"></TextView>
+            <TextView
+                android:id="@+id/duration1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="hello"
+                android:layout_below="@id/daysnights1"
+                android:layout_toRightOf="@id/duration"></TextView>
+            <TextView
+                android:id="@+id/takeoff1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="20dp"
+                android:text="hello"
+                android:layout_below="@id/duration1"
+                android:layout_toRightOf="@id/takeoff"></TextView>
+            <TextView
+                android:id="@+id/land1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"
+                android:text="hello"
+                android:layout_below="@id/takeoff1"
+                android:layout_toRightOf="@id/land"></TextView>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
