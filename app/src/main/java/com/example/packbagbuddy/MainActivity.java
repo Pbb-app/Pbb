@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         List<Slider> sliderList=new ArrayList<>();
         sliderList.add(new Slider(R.drawable.jaipur,"best place in jaipur,India"));
         sliderList.add(new Slider(R.drawable.jammu_kashmir,"beautiful place in Jammu and Kashmir,India"));
-        sliderList.add(new Slider(R.drawable.sports_uttarakhand,"sports activity in uttarakhand,India"));
+        sliderList.add(new Slider(R.drawable.sports_uttarakhand,"varrious sports activity in uttarakhand,India"));
         sliderList.add(new Slider(R.drawable.uttarakhand,"temples in uttarakhand,India"));
         return sliderList;
     }
